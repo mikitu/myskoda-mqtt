@@ -1,0 +1,16 @@
+{
+  "skoda_username": "your-email@example.com",
+  "skoda_password": "your-password",
+  "skoda_vin": "TMBJJ7NE0N0123456",
+  "mqtt_broker": "127.0.0.1",
+  "mqtt_port": 1883,
+  "mqtt_username": "mqtt-user",
+  "mqtt_password": "mqtt-password",
+  "mqtt_topic_prefix": "skoda/enyaq",
+  "poll_interval": 300,
+  "command_timeout": 30,
+  "ha_discovery": true,
+  "ha_discovery_prefix": "homeassistant",
+  "log_level": "INFO"
+}
+
