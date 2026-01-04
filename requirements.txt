@@ -1,0 +1,11 @@
+# Skoda MQTT Bridge Dependencies
+# 
+# Note: On Debian/Ubuntu systems with externally-managed Python environments,
+# install these using apt instead:
+#   sudo apt install python3-requests python3-paho-mqtt
+#
+# This file is provided for reference and for systems where pip is available.
+
+requests>=2.31.0
+paho-mqtt>=1.6.1
+
