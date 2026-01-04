@@ -1,0 +1,30 @@
+{
+  "_comment": "Skoda Connect credentials - REQUIRED",
+  "skoda_username": "your-email@example.com",
+  "skoda_password": "your-password",
+  "skoda_vin": "TMBJJ7NE0N0123456",
+
+  "_comment_mqtt": "MQTT broker settings",
+  "mqtt_broker": "127.0.0.1",
+  "mqtt_port": 1883,
+  "mqtt_username": "mqtt-user",
+  "mqtt_password": "mqtt-password",
+  "mqtt_topic_prefix": "skoda/enyaq",
+
+  "_comment_polling": "Polling and timeout settings (minimum poll_interval: 300 seconds)",
+  "poll_interval": 300,
+  "command_timeout": 30,
+
+  "_comment_ha": "Home Assistant MQTT Discovery settings",
+  "ha_discovery": true,
+  "ha_discovery_prefix": "homeassistant",
+
+  "_comment_device": "Device metadata for Home Assistant (customize as needed)",
+  "device_name": "Skoda Enyaq",
+  "device_manufacturer": "Skoda",
+  "device_model": "Enyaq iV",
+
+  "_comment_logging": "Logging level (DEBUG, INFO, WARNING, ERROR)",
+  "log_level": "INFO"
+}
+
